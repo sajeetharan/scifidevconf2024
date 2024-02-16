@@ -1,4 +1,4 @@
-# World Cup 2023 App With Data API Builder
+# Experts Live 2024 App With Data API Builder
 
 A sample JAMstack application of Static Web Apps with Database Connections backed by Data API Builder for an Angular Application with Azure Cosmos DB (NOSQL API) as a database
 
