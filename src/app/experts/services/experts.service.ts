@@ -10,7 +10,6 @@ const get_experts = gql`
         id
         name
         bio
-        shortbio
         job
         country
         photoUrl
@@ -27,7 +26,6 @@ const get_expert = gql`
       id
       name
       bio
-      shortbio
       job
       country
       photoUrl
@@ -43,7 +41,6 @@ const post_createexpert = gql`
       type
       city
       bio
-      shortbio
       country
       photoUrl
     }
@@ -64,7 +61,6 @@ const post_updateexpert = gql`
       id
       name
       bio
-      shortbio
       city
       country
       photoUrl
@@ -78,7 +74,6 @@ const post_deleteexpert = gql`
       id
       name
       bio
-      shortbio
       city
       country
       photoUrl
