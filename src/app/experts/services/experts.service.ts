@@ -9,7 +9,6 @@ const get_experts = gql`
       items {
         id
         name
-        type
         bio
         shortbio
         job
@@ -27,7 +26,6 @@ const get_expert = gql`
     expert_by_pk(_partitionKeyValue: $_partitionKeyValue, id: $id) {
       id
       name
-      type
       bio
       shortbio
       job
@@ -65,7 +63,6 @@ const post_updateexpert = gql`
     ) {
       id
       name
-      type
       bio
       shortbio
       city
@@ -80,7 +77,6 @@ const post_deleteexpert = gql`
     deleteexpert(_partitionKeyValue: $_partitionKeyValue, id: $id) {
       id
       name
-      type
       bio
       shortbio
       city
@@ -96,7 +92,6 @@ const get_suggestedexperts = gql`
       items {
         id
         name
-        type
         city
         country
         photourl
